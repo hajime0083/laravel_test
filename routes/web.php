@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+ Route::get('/hello/{string}', function () {
+      return $string;
+ });
+
+Route::get('/foo/{name}', 'Lists\FooController@index');
+Route::get('/foo', 'Lists\FooController@index');
+
