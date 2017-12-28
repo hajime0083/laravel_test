@@ -1,3 +1,6 @@
+# gcp
+app.yaml
+
 # vendor/
 node_modules/
 npm-debug.log
